@@ -3,14 +3,12 @@
 Time Machine lets you browse a file's history on a timeline and inspect past
 versions with changes highlighted inline.
 
-With [ChangeReview](/changereview/) and **GitHub Copilot for Eclipse**
-installed, Time Machine also shows the changes Copilot's agent made, and you
-can filter the timeline to agent versions.
-
 It uses its own copy of the content. Exploring history leaves your editor buffer
 and the file on disk untouched, even while an AI agent is writing to the file.
 
 ![Time Machine showing a selected historical version, inline changes, and the history timeline.](/img/time-machine.png)
+
+{/* TODO: Retake without ChangeReview installed: current image shows the Agent filter chip. */}
 
 ## How to use it
 
@@ -30,8 +28,6 @@ Live Review and Inline Compare. The viewer's navigator has the same **⋮** menu
 Use the filter chips above the timeline to choose which versions it shows:
 
 - **● Developer** – versions you saved.
-- **● Agent** – versions written by GitHub Copilot's agent (with
-  [ChangeReview](/changereview/agent-review) installed).
 - **◆ Commit** – Git commits.
 The review appearance follows your Eclipse editor's theme and font.
 
@@ -40,12 +36,13 @@ The review appearance follows your Eclipse editor's theme and font.
 Open **General > Editors > Text Editors > Inline Diff - Live Review > Time Machine**
 in Eclipse preferences.
 
-Time Machine keeps its own copies of tracked agent versions (recorded when
-ChangeReview is installed), so this history can survive Eclipse's local-history
-cleanup. Set **Maximum agent history per file (MB)** and **Maximum agent history
+Time Machine keeps its own copies of versions written by AI agents, so this
+history can survive Eclipse's local-history cleanup. Set **Maximum agent history per file (MB)** and **Maximum agent history
 total (MB)** to limit how much agent content is retained.
 
 ![Time Machine preferences showing agent-history storage limits and a link to Eclipse Local History preferences.](/img/time-machine-prefs.png)
+
+{/* TODO: Retake without ChangeReview installed: current image shows the old page names, the 'Change Review' and 'Agent Review' pages, and 'Change Reviews' in the page text. */}
 
 Your own saved versions are kept by Eclipse's Local History. If they disappear
 from the timeline sooner than expected, adjust **General > Workspace > Local History**.
