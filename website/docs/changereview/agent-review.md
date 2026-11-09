@@ -10,12 +10,13 @@ keep it. Requires **GitHub Copilot for Eclipse**.
 1. Ask Copilot's agent to make a change.
 2. As the agent edits a file, its changes appear in the editor as inline diffs:
    added lines in green, deleted lines as red gaps.
-3. Use **Keep** to accept a change, or **Undo** to restore the original text.
-   Use **Keep All** on the floating navigator to accept the remaining changes.
+3. Use **Keep** beside a change to accept it, or **Undo** to restore the text
+   from before the agent's edit. **Keep All** and **Undo All** on the floating
+   navigator do the same for every remaining change. Kept changes stop being
+   shown; the navigator counts them (**N kept**).
 4. Every version the agent writes is recorded in [Time Machine](/inline-diff/time-machine),
    so you can go back to it later.
 
-{/* TODO: Verify the exact Keep / Undo / Keep All behavior and labels against the EA-2 build. */}
 
 ## Choose where to review
 
@@ -27,19 +28,15 @@ preferences and choose how to **Review agent changes**:
 | **In the editor, as inline diffs (Keep, Undo, Time Machine history)** | Review in place with Keep and Undo; agent versions are recorded in Time Machine. |
 | **In the Compare editor, side by side** | Each agent change opens in Eclipse's Compare Editor. |
 
-:::note Screenshot needed: Agent Review preferences
-Show the **Agent Review** preference page, with the preferences tree expanded to
-show its location under GitHub Copilot for Eclipse.
-Suggested filename: **agent-review-preferences.png**.
-:::
+{/* TODO: Screenshot of the Agent Review preference page, with the preferences tree expanded to show its location under GitHub Copilot for Eclipse. Suggested filename: agent-review-preferences.png. */}
 
 ## The Agent baseline
 
-In the Live Review menu (right-click the **Changes** status bar item, or
-**Edit > Inline Diff**), choose the **Agent** baseline to compare the file with
-the version before the agent's edits.
-
-{/* TODO: Verify the Agent baseline's comparison point. */}
+While an agent review is open, the status bar shows **Changes ✓ (Agent Review)**.
+If you switch to another baseline, choose **Compare with Agent Baseline** in the
+Live Review menu (right-click the status bar item, or **Edit > Inline Diff**) to
+return to the review: it compares the file with its content from before the
+agent's edits. The entry is available only while a review is outstanding.
 
 ## Agent history in Time Machine
 
