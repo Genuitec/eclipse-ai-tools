@@ -10,7 +10,7 @@ check your own edits or review an AI agent's work before committing.
 1. Open the file you want to review.
 2. Click **Show Changes** in the Eclipse status bar.
 3. Use the floating navigator to step through each change.
-4. Use the available change actions to keep or undo edits as you review.
+4. Use the **Undo** action beside a change to restore that change's original text.
 
 Click **Show Changes** again to turn off the review. Use **Refresh Changes**
 to recompute the comparison after the file changes.
@@ -26,17 +26,22 @@ font, and line numbers. Inline Compare and Time Machine use the same display.
 
 ### Change actions
 
-Live Review provides **Accept**, **Discard**, and **Revert** actions for reviewing
-individual changes. Check the selected change before using an action that
-changes your code.
+Each change has an **Undo** action that restores the original text of that
+change only; the rest of your edits stay as they are.
 
-{/* TODO: Confirm the exact scope and behavior of Accept, Discard, and Revert, then replace this paragraph with a short action table. */}
+With [ChangeReview](/changereview/) installed, reviewing GitHub Copilot's agent
+changes also offers **Keep** and **Keep All**. See
+[Agent Review](/changereview/agent-review).
+
+{/* TODO: Verify the Undo widget behavior and the editor-undo note against the 1.0.0 build. */}
 
 ## Configuration
 
-Right-click the **Changes** status bar item to open the review menu.
+Right-click the **Changes** status bar item, or use **Edit > Inline Diff**, to open the review menu. The navigator's **⋮** button opens the same menu.
 
-![ChangeReview status bar menu showing baseline choices and Change Review Preferences.](/img/review-ctx-menu.png)
+![Inline Diff status bar menu showing baseline choices and Inline Diff Preferences.](/img/review-ctx-menu.png)
+
+{/* TODO: Retake this screenshot with the Inline Diff 1.0.0 menu labels. */}
 
 ### Choose a baseline
 
@@ -46,15 +51,17 @@ A baseline is the version you compare your current content against.
 |---|---|
 | **Compare with Git HEAD** | Changes since the last commit, including unsaved edits. |
 | **Compare with Last Saved** | Unsaved changes relative to the file on disk. |
-| **Compare with History...** | Opens [Time Machine](./time-machine) to explore earlier versions. |
+| **Compare with History...** | Opens [Time Machine](./time-machine.md) to explore earlier versions. |
 
-{/* TODO: Document Agent Baseline availability and behavior once confirmed. */}
+With ChangeReview and GitHub Copilot for Eclipse installed, an **Agent** baseline
+is also available. See [Agent Review](/changereview/agent-review).
 
 ### Preferences
 
-Select **Change Review Preferences...** from the status bar menu, or open
-**General > Editors > Text Editors > Review Mode - Inline Diffs** in Eclipse
-preferences.
+Select **Inline Diff Preferences...** from the status bar menu, or open
+**General > Editors > Text Editors > Inline Diff - Live Review** in Eclipse
+preferences. The top-level **Inline Diff** preference page links to all
+Inline Diff settings.
 
 ![Live Review preferences showing default baseline, word highlighting, gutter markers, navigation, and automatic refresh settings.](/img/live-review-prefs.png)
 
