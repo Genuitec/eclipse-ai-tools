@@ -6,6 +6,9 @@ contact_links:
   - name: Suggest an idea
     url: https://github.com/Genuitec/eclipse-ai-tools/discussions/categories/ideas
     about: Feature requests and ideas go to Discussions.
+  - name: ChangeReview early-access feedback
+    url: https://github.com/Genuitec/eclipse-ai-tools/discussions/categories/changereview-early-access
+    about: Feedback and questions on ChangeReview's early-access releases.
   - name: Documentation
     url: https://genuitec.github.io/eclipse-ai-tools/
     about: Inline Diff and ChangeReview documentation.

@@ -17,6 +17,7 @@ https://genuitec.github.io/eclipse-ai-tools/
 ## Community
 
 - **[Discussions](https://github.com/Genuitec/eclipse-ai-tools/discussions)** – questions, ideas, and announcements for both products.
+- **[ChangeReview Early Access](https://github.com/Genuitec/eclipse-ai-tools/discussions/categories/changereview-early-access)** – feedback and questions on ChangeReview's early-access releases.
 - **[Report a bug](https://github.com/Genuitec/eclipse-ai-tools/issues/new/choose)** – something isn't working as documented.
 
 When you post, say which product you're using and include your Eclipse and

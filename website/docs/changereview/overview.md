@@ -25,8 +25,8 @@ is installed with it.
 ChangeReview 1.0 Early Access 2 is free to use during early access and does not
 expire. Updates arrive through **Help > Check for Updates**.
 
-Share your feedback on the
-[Community Forum](https://github.com/Genuitec/eclipse-ai-tools/discussions).
+Share your feedback in
+[ChangeReview Early Access](https://github.com/Genuitec/eclipse-ai-tools/discussions/categories/changereview-early-access).
 Your feedback helps shape the production release.
 :::
 
