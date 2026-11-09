@@ -7,15 +7,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ChangeReview for Eclipse Documentation',
-  tagline: 'ChangeReview for Eclipse Documentation',
+  title: 'Genuitec Eclipse AI Tools',
+  tagline: 'Documentation for Inline Diff for Eclipse and ChangeReview',
   //favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: process.env.TARGET_URL || 'https://genuitec.com',
+  url: process.env.TARGET_URL || 'https://genuitec.github.io',
 
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: process.env.TARGET_BASE_URL || '/products/changereview/',
+  baseUrl: process.env.TARGET_BASE_URL || '/eclipse-ai-tools/',
+  organizationName: 'Genuitec',
+  projectName: 'eclipse-ai-tools',
+  // GitHub Pages adds a trailing slash; keep it explicit so links and
+  // emitted files agree.
+  trailingSlash: true,
   onBrokenLinks: 'warn',
 
   markdown: {
@@ -39,7 +44,11 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-         },
+          // Product sections live at /inline-diff/ and /changereview/.
+          routeBasePath: '/',
+          editUrl: 'https://github.com/Genuitec/eclipse-ai-tools/edit/main/website/',
+        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -51,13 +60,30 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ChangeReview',
+        title: 'Eclipse AI Tools',
         logo: {
-          alt: 'ChangeReview Logo',
+          alt: 'Genuitec Eclipse AI Tools',
           src: 'img/changes_256-rounded.png',
         },
         items: [
-{
+          {
+            type: 'docSidebar',
+            sidebarId: 'inlineDiffSidebar',
+            label: 'Inline Diff',
+            position: 'left',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'changeReviewSidebar',
+            label: 'ChangeReview',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/Genuitec/eclipse-ai-tools/discussions',
+            label: 'Community',
+            position: 'right',
+          },
+          {
             to: "https://genuitec.com",
             label: "genuitec.com",
             position: "right",

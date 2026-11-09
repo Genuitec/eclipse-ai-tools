@@ -21,3 +21,48 @@
   align-items: center;
   justify-content: center;
 }
+
+.tagline {
+  font-size: 1.25rem;
+  color: var(--gray-0);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  border: 1px solid var(--gray-2);
+  border-radius: 12px;
+  padding: 2rem;
+  background: var(--gray-5);
+}
+
+.cardTitle {
+  margin: 1rem 0 0.75rem;
+  font-size: 1.5rem;
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  vertical-align: middle;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--gray-1);
+  color: var(--gray-00);
+}
+
+.cardLinks {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.community {
+  text-align: center;
+  margin-bottom: 4rem;
+}
