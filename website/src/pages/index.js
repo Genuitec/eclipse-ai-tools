@@ -18,7 +18,7 @@ const PRODUCTS = [
   {
     name: 'ChangeReview',
     badge: 'Early Access',
-    icon: 'img/changes_256-rounded.png',
+    icon: 'img/changereview.svg',
     blurb:
       "Review GitHub Copilot's agent changes before you keep them. " +
       'Builds on Inline Diff.',

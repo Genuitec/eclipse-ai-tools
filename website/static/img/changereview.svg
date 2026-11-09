@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <title>ChangeReview</title>
+  <defs>
+    <!-- Knockout ring around the check: frame and diff shapes are cut away, leaving transparency -->
+    <mask id="knockout" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+      <rect width="256" height="256" fill="#fff"/>
+      <polyline points="54,134 108,190 232,38" fill="none" stroke="#000" stroke-width="62"
+                stroke-linecap="round" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g mask="url(#knockout)">
+    <!-- Frame -->
+    <rect x="5" y="5" width="246" height="246" rx="25.5" fill="none" stroke="#444444" stroke-width="5"/>
+    <!-- Faded inline-diff shapes -->
+    <g opacity="0.55">
+      <rect x="128" y="32" width="115" height="32" fill="#8C8C8F"/>
+      <rect x="16" y="112" width="96" height="32" fill="#50D250"/>
+      <rect x="48" y="80" width="32" height="96" fill="#50D250"/>
+      <rect x="128" y="112" width="115" height="32" fill="#50D250"/>
+      <rect x="16" y="192" width="96" height="32" fill="#DC5050"/>
+      <rect x="128" y="192" width="115" height="32" fill="#DC5050"/>
+    </g>
+  </g>
+  <!-- Check -->
+  <polyline points="54,134 108,190 232,38" fill="none" stroke="#2EA043" stroke-width="42"
+            stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

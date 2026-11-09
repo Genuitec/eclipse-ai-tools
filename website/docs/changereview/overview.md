@@ -5,14 +5,12 @@ hide_title: true
 description: Review GitHub Copilot's agent changes before you keep them. Builds on Inline Diff for Eclipse.
 ---
 
-import productIcon from '@site/static/img/changes_256-rounded.png';
+import ChangeReviewIcon from '@site/static/img/changereview.svg';
 
 <div style={{display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '24px'}}>
-  <img src={productIcon} alt="ChangeReview product icon" width="128" height="128" style={{flexShrink: 0}} />
+  <ChangeReviewIcon role="img" aria-label="ChangeReview product icon" width="128" height="128" style={{flexShrink: 0}} />
   <h1 style={{margin: 0}}>ChangeReview for Eclipse</h1>
 </div>
-
-{/* TODO: Replace the icon with the ChangeReview checkmark icon when it is ready. */}
 
 Review GitHub Copilot's changes before you keep them. When Copilot's agent edits
 your files, ChangeReview shows each change inline in the editor so you can keep
