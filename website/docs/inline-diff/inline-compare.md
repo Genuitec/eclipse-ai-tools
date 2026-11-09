@@ -6,6 +6,8 @@ one command.
 
 ![Inline Compare in Eclipse showing a single-pane diff and the Side-by-Side button.](/img/inline-compare-small.png)
 
+{/* TODO: Retake with the current navigator (⋮ menu). */}
+
 ## How to use it
 
 1. Open a comparison in Eclipse's Compare Editor.
@@ -15,6 +17,10 @@ one command.
 4. Click **Side-by-Side** (the same button) to return to the two-pane view.
 
 The inline view keeps syntax coloring and matches your editor's theme and font.
+
+The [focus tools](./live-review.md#focusing-on-what-matters) from Live Review work here too: hide changes, filter whitespace-only changes with **¶**, and dim changes not in focus.
+
+{/* TODO: Verify hide / ¶ / dim in the Compare Editor's inline view. */}
 
 The floating navigator's **⋮** button lets you show or hide changes and open
 Inline Diff settings. In the inline view, right-click the text and choose

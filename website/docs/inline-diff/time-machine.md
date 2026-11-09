@@ -8,7 +8,7 @@ and the file on disk untouched, even while an AI agent is writing to the file.
 
 ![Time Machine showing a selected historical version, inline changes, and the history timeline.](/img/time-machine.png)
 
-{/* TODO: Retake without ChangeReview installed: current image shows the Agent filter chip. */}
+{/* TODO: Retake without ChangeReview installed: current image shows the Agent filter chip. Also show the current navigator. */}
 
 ## How to use it
 
@@ -20,6 +20,9 @@ and the file on disk untouched, even while an AI agent is writing to the file.
 
 Added lines appear in green, and deleted lines appear as red gaps, just as in
 Live Review and Inline Compare. The viewer's navigator has the same **⋮** menu.
+The [focus tools](./live-review.md#focusing-on-what-matters) from Live Review work here too.
+
+{/* TODO: Verify hide / ¶ / dim in the Time Machine viewer. */}
 
 {/* TODO: Verify the comparison direction (selected version against what?) and describe it in one sentence. */}
 

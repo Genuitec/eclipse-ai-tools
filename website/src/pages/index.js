@@ -10,8 +10,8 @@ const PRODUCTS = [
     badge: 'Free',
     icon: 'img/changes_256-rounded.png',
     blurb:
-      'Review changes inline in the editor you already use: Live Review, ' +
-      'Inline Compare, and Time Machine.',
+      'A true inline diff for Eclipse, at last: in the Compare editor and in ' +
+      'every text editor. Read changes top to bottom, not side to side.',
     docs: '/inline-diff/',
     install: '/inline-diff/install/installation',
   },

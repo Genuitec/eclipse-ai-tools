@@ -2,7 +2,7 @@
 title: Inline Diff for Eclipse
 slug: /inline-diff/
 hide_title: true
-description: Review changes inline in Eclipse with Live Review, Inline Compare, and Time Machine. Free.
+description: Inline diffs for Eclipse, at last. Read changes top to bottom in the Compare editor and in every Eclipse text editor. Free.
 ---
 
 import productIcon from '@site/static/img/changes_256-rounded.png';
@@ -12,27 +12,47 @@ import productIcon from '@site/static/img/changes_256-rounded.png';
   <h1 style={{margin: 0}}>Inline Diff for Eclipse</h1>
 </div>
 
-Review changes made by you, your teammates, or an AI coding agent in the editor
-you already use. Inline Diff shows added lines in green and deleted lines as
-red gaps, with full syntax coloring. Inline Diff is free.
+For more than 20 years, Eclipse's Compare editor has shown changes one way:
+side by side, in two panes you read back and forth. **Inline Diff for Eclipse**
+adds the view most other IDEs have had for years: a single, inline diff you
+read from top to bottom.
+
+And it goes further. Inline Diff brings the same view into **every Eclipse text
+editor**, so you can review changes right where you write code, without
+opening a comparison at all.
+
+Inline Diff is free and works with recent Eclipse releases.
 
 [Install Inline Diff](./install/installation.md)
 
+## Why inline?
+
+A side-by-side comparison asks you to read two columns at once, matching lines
+across panes and scrolling both. An inline diff reads like the file itself:
+deleted lines appear as red gaps where they were, added lines in green, all in
+one top-to-bottom pass with full syntax coloring. For most reviews that is
+simply faster. When you do want two panes, side by side is one click away.
+
 ## Live Review
 
-See uncommitted changes directly in a text editor. Step through edits and undo
-individual changes to review your work before committing.
+See uncommitted changes directly in any text editor. Step through them, hide
+the ones you've checked, filter out whitespace-only edits, dim everything but
+the change you're on, and undo individual changes.
 
 ![Live Review in Eclipse showing inline additions, deletions, and the floating change navigator.](/img/live-review.png)
+
+{/* TODO: Retake with the current navigator (Undo All, ¶, ⋮). */}
 
 [Use Live Review](./live-review.md)
 
 ## Inline Compare
 
-Read an Eclipse comparison top to bottom in a single pane. Switch back to the
-side-by-side view with the same command.
+Read any Eclipse comparison top to bottom in a single pane. Switch back to the
+side-by-side view with the same button.
 
 ![Inline Compare in Eclipse showing a single-pane diff and the Side-by-Side button.](/img/inline-compare-small.png)
+
+{/* TODO: Retake with the current navigator (⋮ menu). */}
 
 [Use Inline Compare](./inline-compare.md)
 
@@ -43,12 +63,12 @@ changes. Exploring history leaves your editor buffer and file on disk untouched.
 
 ![Time Machine showing a selected historical version, inline changes, and the history timeline.](/img/time-machine.png)
 
-{/* TODO: Retake without ChangeReview installed: current image shows the Agent filter chip. */}
+{/* TODO: Retake without ChangeReview installed: current image shows the Agent filter chip. Also show the current navigator. */}
 
 [Use Time Machine](./time-machine.md)
 
-All three tools match your editor's theme (light or dark) and font, and include
-a floating navigator to move between changes.
+All three tools match your editor's theme (light or dark) and font, and share
+the same floating navigator to move between changes.
 
 ## Feedback and support
 
