@@ -9,17 +9,16 @@ one command.
 ## How to use it
 
 1. Open a comparison in Eclipse's Compare Editor.
-2. Use the Inline Diff inline-view command to switch to a single pane.
+2. Click **Inline Diff** in the Compare Editor's toolbar to switch to a single pane.
 3. Read added lines in green and deleted lines as red gaps. Use the floating
    navigator to move between changes.
-4. Use the same command to return to the side-by-side view.
+4. Click **Side-by-Side** (the same button) to return to the two-pane view.
 
 The inline view keeps syntax coloring and matches your editor's theme and font.
 
 The floating navigator's **⋮** button lets you show or hide changes and open
-Inline Diff settings.
-
-{/* TODO: Replace "inline-view command" with the verified 1.0.0 command label and its menu or toolbar location. */}
+Inline Diff settings. In the inline view, right-click the text and choose
+**Show Inline Diff Markers (+/-/~)** to mark changed lines in the margin.
 
 ## Configuration
 

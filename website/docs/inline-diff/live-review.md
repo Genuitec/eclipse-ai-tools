@@ -26,14 +26,27 @@ font, and line numbers. Inline Compare and Time Machine use the same display.
 
 ### Change actions
 
-Each change has an **Undo** action that restores the original text of that
-change only; the rest of your edits stay as they are.
+The **Undo** button beside the current change restores that change to the
+baseline's text; the rest of your edits stay as they are. **Undo All** on the
+navigator does the same for every visible change.
+
+### The navigator
+
+The floating navigator at the bottom of the editor shows where you are
+(for example **2 of 5**), with arrows to move to the previous or next change.
+It also has:
+
+- **Undo All**, while there are changes and the file is editable.
+- **¶**, which hides whitespace-only changes; the number beside it counts
+  them. **N hidden** shows all hidden changes again.
+- **⋮**, which opens the Inline Diff menu. Right-clicking the navigator opens it too.
+
+Drag the navigator to move it; double-click it to put it back.
 
 With [ChangeReview](/changereview/) installed, reviewing GitHub Copilot's agent
 changes also offers **Keep** and **Keep All**. See
 [Agent Review](/changereview/agent-review).
 
-{/* TODO: Verify the Undo widget behavior and the editor-undo note against the 1.0.0 build. */}
 
 ## Configuration
 
@@ -53,8 +66,9 @@ A baseline is the version you compare your current content against.
 | **Compare with Last Saved** | Unsaved changes relative to the file on disk. |
 | **Compare with History...** | Opens [Time Machine](./time-machine.md) to explore earlier versions. |
 
-With ChangeReview and GitHub Copilot for Eclipse installed, an **Agent** baseline
-is also available. See [Agent Review](/changereview/agent-review).
+With ChangeReview and GitHub Copilot for Eclipse installed, **Compare with Agent
+Baseline** is also available while an agent review is open. See
+[Agent Review](/changereview/agent-review).
 
 ### Preferences
 

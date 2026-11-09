@@ -23,11 +23,16 @@ and the file on disk untouched, even while an AI agent is writing to the file.
 Added lines appear in green, and deleted lines appear as red gaps, just as in
 Live Review and Inline Compare. The viewer's navigator has the same **⋮** menu.
 
-{/* TODO: Verify the 1.0.0 entry command, comparison direction, and timeline controls. */}
+{/* TODO: Verify the comparison direction (selected version against what?) and describe it in one sentence. */}
 
 ## Configuration
 
-Use the timeline's source filters to focus on the versions you want to inspect.
+Use the filter chips above the timeline to choose which versions it shows:
+
+- **● Developer** – versions you saved.
+- **● Agent** – versions written by GitHub Copilot's agent (with
+  [ChangeReview](/changereview/agent-review) installed).
+- **◆ Commit** – Git commits.
 The review appearance follows your Eclipse editor's theme and font.
 
 ### Time Machine preferences
@@ -46,4 +51,4 @@ Your own saved versions are kept by Eclipse's Local History. If they disappear
 from the timeline sooner than expected, adjust **General > Workspace > Local History**.
 The Time Machine preference page includes a link to those settings.
 
-{/* TODO: Confirm available source filters and their labels. Restore actions and Git History links need verification before they are documented. */}
+{/* TODO: Restore actions and Git History links need verification before they are documented. */}

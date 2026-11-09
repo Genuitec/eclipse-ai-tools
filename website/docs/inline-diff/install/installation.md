@@ -19,11 +19,7 @@ your teammates, or an AI coding agent.
 3. Follow the prompts, review and accept the license, and finish installation.
 4. Restart Eclipse when prompted.
 
-:::note Screenshot needed: Installation
-Show Eclipse Marketplace search results for **Inline Diff**, with the product
-name, icon, and **Install** button visible.
-Suggested filename: **marketplace-install.png**.
-:::
+{/* TODO: Screenshot of Eclipse Marketplace search results for Inline Diff, with the product name, icon, and Install button visible. Suggested filename: marketplace-install.png. */}
 
 After restarting, look for **Show Changes** in the status bar. Open a file and
 try [Live Review](../live-review.md).
