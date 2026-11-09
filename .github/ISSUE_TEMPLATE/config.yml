@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/Genuitec/eclipse-ai-tools/discussions/categories/q-a
+    about: Questions about Inline Diff or ChangeReview go to Discussions.
+  - name: Suggest an idea
+    url: https://github.com/Genuitec/eclipse-ai-tools/discussions/categories/ideas
+    about: Feature requests and ideas go to Discussions.
+  - name: Documentation
+    url: https://genuitec.github.io/eclipse-ai-tools/
+    about: Inline Diff and ChangeReview documentation.

@@ -1,0 +1,25 @@
+title: "[Q&A] "
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Inline Diff for Eclipse
+        - ChangeReview
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and what happened?
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Eclipse, Inline Diff, and ChangeReview versions, and your operating system.
+      placeholder: "Eclipse 2025-09, Inline Diff 1.0.0, ChangeReview 1.0 EA-2, Windows 11"

@@ -1,0 +1,19 @@
+title: "[Idea] "
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Inline Diff for Eclipse
+        - ChangeReview
+        - Both / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like to be able to do, and why?
+    validations:
+      required: true

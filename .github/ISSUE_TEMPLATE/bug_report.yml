@@ -1,0 +1,46 @@
+name: Bug report
+description: Something isn't working as documented.
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Inline Diff for Eclipse
+        - ChangeReview
+    validations:
+      required: true
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Feature
+      options:
+        - Live Review
+        - Inline Compare
+        - Time Machine
+        - Agent Review (ChangeReview)
+        - Preferences
+        - Installation / update
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you expected, what happened instead, and the steps to reproduce it. Include the file's language.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Eclipse, Inline Diff, and ChangeReview versions, and your operating system.
+      placeholder: "Eclipse 2025-09, Inline Diff 1.0.0, ChangeReview 1.0 EA-2, Windows 11"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or error log
+      description: Attach a screenshot if the issue is visual, or paste relevant entries from the Error Log view.
