@@ -24,11 +24,6 @@ your teammates, or an AI coding agent.
 After restarting, look for **Show Changes** in the status bar. Open a file and
 try [Live Review](../live-review.md).
 
-:::tip Already installed ChangeReview?
-Inline Diff is installed automatically with ChangeReview 1.0 Early Access 2 and
-later. See [ChangeReview installation](/changereview/installation).
-:::
-
 ## Updating
 
 Open **Help > Check for Updates**, select an available Inline Diff update,
@@ -39,7 +34,5 @@ and follow the prompts. Restart Eclipse to complete the update.
 Open **Help > About Eclipse IDE > Installation Details**. Select Inline Diff
 on the **Installed Software** tab, click **Uninstall**, and follow the prompts.
 Restart Eclipse when prompted.
-
-If ChangeReview is installed, uninstall it first, because it requires Inline Diff.
 
 Need assistance? See [Getting Help](../getting-help.md).

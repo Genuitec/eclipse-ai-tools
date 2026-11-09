@@ -43,16 +43,12 @@ changes. Exploring history leaves your editor buffer and file on disk untouched.
 
 ![Time Machine showing a selected historical version, inline changes, and the history timeline.](/img/time-machine.png)
 
+{/* TODO: Retake without ChangeReview installed: current image shows the Agent filter chip. */}
+
 [Use Time Machine](./time-machine.md)
 
 All three tools match your editor's theme (light or dark) and font, and include
 a floating navigator to move between changes.
-
-## Reviewing AI agent changes
-
-Using GitHub Copilot for Eclipse? [ChangeReview](/changereview/) adds Agent
-Review on top of Inline Diff: review each change Copilot's agent makes, then
-keep or undo it.
 
 ## Feedback and support
 

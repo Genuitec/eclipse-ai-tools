@@ -43,9 +43,6 @@ It also has:
 
 Drag the navigator to move it; double-click it to put it back.
 
-With [ChangeReview](/changereview/) installed, reviewing GitHub Copilot's agent
-changes also offers **Keep** and **Keep All**. See
-[Agent Review](/changereview/agent-review).
 
 
 ## Configuration
@@ -54,7 +51,7 @@ Right-click the **Changes** status bar item, or use **Edit > Inline Diff**, to o
 
 ![Inline Diff status bar menu showing baseline choices and Inline Diff Preferences.](/img/review-ctx-menu.png)
 
-{/* TODO: Retake this screenshot with the Inline Diff 1.0.0 menu labels. */}
+{/* TODO: Retake without ChangeReview installed: current image shows 'Compare with Agent Baseline' and 'Change Review Preferences...'. */}
 
 ### Choose a baseline
 
@@ -66,10 +63,6 @@ A baseline is the version you compare your current content against.
 | **Compare with Last Saved** | Unsaved changes relative to the file on disk. |
 | **Compare with History...** | Opens [Time Machine](./time-machine.md) to explore earlier versions. |
 
-With ChangeReview and GitHub Copilot for Eclipse installed, **Compare with Agent
-Baseline** is also available while an agent review is open. See
-[Agent Review](/changereview/agent-review).
-
 ### Preferences
 
 Select **Inline Diff Preferences...** from the status bar menu, or open
@@ -78,6 +71,8 @@ preferences. The top-level **Inline Diff** preference page links to all
 Inline Diff settings.
 
 ![Live Review preferences showing default baseline, word highlighting, gutter markers, navigation, and automatic refresh settings.](/img/live-review-prefs.png)
+
+{/* TODO: Retake without ChangeReview installed: current image shows the old 'Review Mode - Inline Diffs' name, the 'Change Review' and 'Agent Review' pages, and the 'Compare with Agent Review' baseline. */}
 
 Use this page to choose the default baseline and adjust:
 

@@ -34,5 +34,7 @@ comparisons in the single-pane view.
 
 ![Inline Compare preferences showing the option to open Compare Editor in inline diff mode by default.](/img/inline-compare-prefs.png)
 
+{/* TODO: Retake without ChangeReview installed: current image shows the old 'Inline Diffs' page name and the 'Change Review' and 'Agent Review' pages. */}
+
 The link on this page opens the [Live Review preferences](./live-review.md#preferences)
 for additional editor review settings.
