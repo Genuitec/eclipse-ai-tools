@@ -13,9 +13,8 @@ import productIcon from '@site/static/img/changes_256-rounded.png';
 </div>
 
 For more than 20 years, Eclipse's Compare editor has shown changes one way:
-side by side, in two panes you read back and forth. **Inline Diff for Eclipse**
-adds the view most other IDEs have had for years: a single, inline diff you
-read from top to bottom.
+side by side. **Inline Diff for Eclipse** brings the inline view that VS Code
+and IntelliJ users take for granted: a single diff you read from top to bottom.
 
 And it goes further. Inline Diff brings the same view into **every Eclipse text
 editor**, so you can review changes right where you write code, without
