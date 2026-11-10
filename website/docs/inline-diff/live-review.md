@@ -4,9 +4,9 @@ Live Review shows your uncommitted changes directly in the text editor you are
 working in. Use it to check your own edits, or an AI agent's, before committing.
 It works in every Eclipse text editor, for any language.
 
-![Live Review in Eclipse showing inline additions, deletions, and the floating change navigator.](/img/live-review.png)
+![Live Review in Eclipse showing inline additions, deletions, a hidden change's margin marker, and the floating change navigator with Undo All, the whitespace filter, and the hidden-change count.](/img/live-review.png)
 
-{/* TODO: Retake with the current navigator (Undo All, ¶, ⋮). */}
+{/* TODO: Retake once the navigator shows "1 hidden" in full (currently cut off as "1 hidd..."). */}
 
 ## How to use it
 
@@ -48,7 +48,7 @@ to hide it. **Alt+click** the icon to hide every *other* change instead, so
 only the one you are reading remains. Clicking a change's marker in the left
 margin hides it too.
 
-A hidden change leaves a marker in the left margin. Hover over the marker to
+A hidden change leaves a dotted marker in the left margin. Hover over the marker to
 see how many lines were added and removed, and click it to show the change
 again. The navigator counts hidden changes: click **N hidden** to show them
 all. Hiding only affects the view; your file is unchanged.
@@ -73,7 +73,7 @@ is the one at the caret, under the pointer, or selected with the navigator.
 When none is, the navigator's current change stays at full strength, so there
 is always one change you can read.
 
-{/* TODO: Screenshot of focus dimming: one change at full strength, others dimmed. Suggested filename: live-review-dim.png. */}
+![Focus dimming: the change being read is at full strength while the others are drawn faintly.](/img/live-review-dim.png)
 
 ## The navigator
 
@@ -95,12 +95,11 @@ status bar item, or from **Edit > Inline Diff**. It has:
 
 - **Show Changes** / **Hide Changes** and **Refresh Changes**.
 - The baselines (below).
-- **Show Change Markers (+/-)** and **Dim Changes Not in Focus**.
+- **Show Change Markers (+/-)**, which shows or hides the +/- markers in the left margin.
+- **Dim Changes Not in Focus**.
 - **Preferences...**, **Online Documentation**, and **Getting Help**.
 
-![Inline Diff status bar menu showing baseline choices and Inline Diff Preferences.](/img/review-ctx-menu.png)
-
-{/* TODO: Retake without ChangeReview installed: current image shows 'Compare with Agent Baseline' and 'Change Review Preferences...'. */}
+![The Inline Diff menu opened from the navigator, showing Hide Changes, the baselines, Show Change Markers, Dim Changes Not in Focus, Preferences, and help links.](/img/review-ctx-menu.png)
 
 ### Choose a baseline
 
@@ -119,9 +118,9 @@ Select **Preferences...** from the Inline Diff menu, or open
 preferences. The top-level **Inline Diff** preference page links to all
 Inline Diff settings.
 
-![Live Review preferences showing default baseline, word highlighting, gutter markers, navigation, and automatic refresh settings.](/img/live-review-prefs.png)
+![The Inline Diff preference page linking to the Live Review, Time Machine, and Compare settings, the online documentation, and help.](/img/inline-diff-prefs-hub.png)
 
-{/* TODO: Retake without ChangeReview installed: current image shows the old 'Review Mode - Inline Diffs' name, the 'Change Review' and 'Agent Review' pages, and the 'Compare with Agent Review' baseline. The new image should also show the Dim and whitespace settings. */}
+![Live Review preferences showing the default baseline, word highlighting, focus dimming, whitespace-only filtering, change markers, navigation, and automatic refresh settings.](/img/live-review-prefs.png)
 
 Use this page to choose the default baseline and adjust:
 

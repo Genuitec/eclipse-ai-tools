@@ -4,9 +4,7 @@ Inline Compare displays an Eclipse comparison in a single pane, so you can read
 changes from top to bottom. Switch between inline and side-by-side views with
 one command.
 
-![Inline Compare in Eclipse showing a single-pane diff and the Side-by-Side button.](/img/inline-compare-small.png)
-
-{/* TODO: Retake with the current navigator (⋮ menu). */}
+![The same comparison in Eclipse's classic side-by-side view (back) and in Inline Compare (front). The Inline Diff and Side-by-Side buttons switch between them.](/img/inline-compare-modes.png)
 
 ## How to use it
 
@@ -36,9 +34,7 @@ Open **General > Compare/Patch > Inline Diff - Compare** in Eclipse preferences.
 Enable **Open Compare Editor in inline diff mode by default** to start new
 comparisons in the single-pane view.
 
-![Inline Compare preferences showing the option to open Compare Editor in inline diff mode by default.](/img/inline-compare-prefs.png)
-
-{/* TODO: Retake without ChangeReview installed: current image shows the old 'Inline Diffs' page name and the 'Change Review' and 'Agent Review' pages. */}
+![Inline Diff - Compare preferences showing the option to open Compare Editor in inline diff mode by default.](/img/inline-compare-prefs.png)
 
 The link on this page opens the [Live Review preferences](./live-review.md#preferences)
 for additional editor review settings.

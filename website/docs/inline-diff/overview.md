@@ -41,8 +41,6 @@ the change you're on, and undo individual changes.
 
 ![Live Review in Eclipse showing inline additions, deletions, and the floating change navigator.](/img/live-review.png)
 
-{/* TODO: Retake with the current navigator (Undo All, ¶, ⋮). */}
-
 [Use Live Review](./live-review.md)
 
 ## Inline Compare
@@ -50,9 +48,7 @@ the change you're on, and undo individual changes.
 Read any Eclipse comparison top to bottom in a single pane. Switch back to the
 side-by-side view with the same button.
 
-![Inline Compare in Eclipse showing a single-pane diff and the Side-by-Side button.](/img/inline-compare-small.png)
-
-{/* TODO: Retake with the current navigator (⋮ menu). */}
+![The same comparison in Eclipse's classic side-by-side view (back) and in Inline Compare (front).](/img/inline-compare-small.png)
 
 [Use Inline Compare](./inline-compare.md)
 
@@ -62,8 +58,6 @@ Browse a file's history on a timeline and inspect past versions with inline
 changes. Exploring history leaves your editor buffer and file on disk untouched.
 
 ![Time Machine showing a selected historical version, inline changes, and the history timeline.](/img/time-machine.png)
-
-{/* TODO: Retake without ChangeReview installed: current image shows the Agent filter chip. Also show the current navigator. */}
 
 [Use Time Machine](./time-machine.md)
 

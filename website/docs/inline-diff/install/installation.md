@@ -24,6 +24,11 @@ your teammates, or an AI coding agent.
 After restarting, look for **Show Changes** in the status bar. Open a file and
 try [Live Review](../live-review.md).
 
+All Inline Diff settings are linked from **Window > Preferences > Inline Diff**
+(on macOS, **Eclipse > Settings > Inline Diff**):
+
+![The Inline Diff preference page linking to the Live Review, Time Machine, and Compare settings, the online documentation, and help.](/img/inline-diff-prefs-hub.png)
+
 ## Updating
 
 Open **Help > Check for Updates**, select an available Inline Diff update,
