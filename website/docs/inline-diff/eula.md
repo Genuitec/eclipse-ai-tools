@@ -1,21 +1,32 @@
 # Inline Diff for Eclipse End User License Agreement
 
-
 Please carefully read the terms and conditions of this License Agreement before using the Software regardless of how you acquire the Software. By downloading, installing or using the Software, you, on behalf of yourself and your company or institution ("Licensee"), are agreeing to the terms and conditions of this License Agreement ("Agreement"). You represent and warrant that you are at least eighteen (18) years of age and that you have full authority to bind Licensee to these terms. If you do not wish to accept the terms of the Agreement, do not acknowledge this license and contact the company that provided your access to the Software.
 
 ## 1.0 Definitions.
 
+
 1.1 'Licensor' means Genuitec L.L.C.;
+
 1.2 'End User' means the individual that Licensee permits to use the Software;
+
 1.3 'Licensee' means the individual that is granted a license to use the software under the terms and conditions set forth in this Agreement;
+
 1.4 'Update' shall refer to maintenance releases specific to the Software, as they will be made by Licensor under no obligation or commitment to do so;
+
 1.5 'Software' shall mean the release version of Inline Diff for Eclipse, including any Content, as downloaded by Licensee or as provided on distribution media in physical or electronic form, or by access through the Licensor portal;
+
 1.6 'Agreement' shall mean this End User License Agreement;
+
 1.7 'Online Services' means the Licensor Online Services and the Third Party Online Services available in connection with the use of the Software or Licensed Content;
+
 1.8 'Term' refers to the effective duration of the license agreement following possession of or access to the Software;
+
 1.9 'Content' means all software and information in executable, binary or text form included in the distribution media, on-line or in electronic form, embedded data, programming, HTML, files, images, graphics, icons, Documentation and all other content or materials incorporated in or generated under the terms of this Agreement;
+
 1.10 'Documentation' refers to published product specifications and accompanying documentation.
+
 1.11 'Eclipse Marketplace' refers to the website https://marketplace.eclipse.org/
+
 1.12 'Licensee Content' means the source code, files, project resources and other materials that Licensee opens, edits or reviews using the Software, together with any local snapshots, baselines or historical versions of such materials that the Software records on Licensee's system in the course of providing diff and history functionality.
 
 ## 2.0 Software.
@@ -23,14 +34,15 @@ Please carefully read the terms and conditions of this License Agreement before 
 The Software is protected by copyright under United States, foreign laws and international treaties. Unauthorized use of the Software may violate copyright, trademark and other laws. Licensor grants Licensee the non-exclusive, non-transferable non-sub licensable, limited right and license to permit End User the use of the Software and, if applicable, related on-line documentation made available by Licensor with each license of the Software ("Documentation") during the Term and subject to the terms and conditions of the Agreement.
 
 This grant is not a transfer of title, and under this license Licensee may not:
-a) use, republish, upload, post or transmit in any way the Software except as expressly authorized pursuant to the Agreement;
-b) copy, reproduce, modify or create derivative works from the Software except as expressly authorized pursuant to the Agreement;
-c) attempt to decompile, disassemble or reverse engineer the Software;
-d) remove any copyright or other proprietary notations from the Software;
-e) distribute, transfer, sale, lease, sublicense, assign or otherwise make available, directly or indirectly, the Software, in part or in whole, including any output or results, to any other person;
-f) except as may be specifically provided in the Agreement, permit the Software to be accessed through an electronic network beyond Licensee's normal places of business; or
-g) transfer the Software to another person or 'mirror' the Software on external servers.
-h) obtain or access the Software from any source other than the Eclipse Marketplace or directly from Genuitec, LLC.
+
+- a) use, republish, upload, post or transmit in any way the Software except as expressly authorized pursuant to the Agreement;
+- b) copy, reproduce, modify or create derivative works from the Software except as expressly authorized pursuant to the Agreement;
+- c) attempt to decompile, disassemble or reverse engineer the Software;
+- d) remove any copyright or other proprietary notations from the Software;
+- e) distribute, transfer, sale, lease, sublicense, assign or otherwise make available, directly or indirectly, the Software, in part or in whole, including any output or results, to any other person;
+- f) except as may be specifically provided in the Agreement, permit the Software to be accessed through an electronic network beyond Licensee's normal places of business; or
+- g) transfer the Software to another person or 'mirror' the Software on external servers.
+- h) obtain or access the Software from any source other than the Eclipse Marketplace or directly from Genuitec, LLC.
 
 Title to the Software and Documentation remains with Licensor and its licensors at all times. Copyright notices and other proprietary rights notices in the Software shall not be deleted or modified. The Agreement does not transfer any ownership rights. Licensee will not permit any End User to, use the Software for any illegal purpose, in violation of any applicable laws or regulations, or in violation of the rules of any other service provider engaged by or for the benefit of Licensee, or to assist or permit any person to engage in any of these activities. If Licensee becomes aware of any prohibited activities, Licensee will use best efforts to remedy such activities promptly, including without limitation, limiting or terminating a User's access to the Software.
 
@@ -41,11 +53,14 @@ From time to time, Licensor may make available new releases, updates and correct
 ## 4.0 Limitation of Liability.
 
 Licensor assumes no responsibility for the selection of the Software to achieve any intended purpose, for the proper use of Software or for verifying the results obtained from use of the Software. Licensee recognizes that the Software will interact with software provided by other suppliers, including the Eclipse platform, source control systems and third party editors and plug-ins, and accepts that Licensor assumes no responsibility for such use, interaction, performance issues, or failure to achieve any desired results. Licensee is solely responsible for maintaining independent backups and version control of Licensee Content, and acknowledges that the change, history and revert functionality of the Software is not a substitute for a source control system or backup regimen. We warrant that for a period of 30 days after delivery of this copy of the Software:
-a) if the Software is provided on physical media by Licensor, the physical media on which this copy of the Software is provided to you will be free from defects in materials and workmanship under normal use, and
-b) the Software will perform in substantial accordance with the Documentation.
+
+- a) if the Software is provided on physical media by Licensor, the physical media on which this copy of the Software is provided to you will be free from defects in materials and workmanship under normal use, and
+- b) the Software will perform in substantial accordance with the Documentation.
+
 To the extent permitted by applicable law, the foregoing limited warranty is in lieu of all other warranties or conditions, expressed or implied, and we disclaim any and all implied warranties or conditions, including any implied warranty of title, non-infringement, merchantability or fitness for a particular purpose, regardless of whether we know or had reason to know of your particular needs. No employee, agent, dealer or distributor of ours is authorized to modify this limited warranty, nor to make any additional warranties. Some states do not allow the limitation or exclusion of liability for incidental or consequential damages, so the above limitation may not apply to you. Licensor entire liability and Licensee's exclusive remedy for breach of the foregoing warranty shall be, at our option, to either:
-a) return the price you paid, or
-b) repair or replace the Software that does not meet the foregoing warranty if it is returned to us with a copy of your receipt.
+
+- a) return the price you paid, or
+- b) repair or replace the Software that does not meet the foregoing warranty if it is returned to us with a copy of your receipt.
 
 In no event will Licensor be liable to you for any damages, including any lost profits, lost savings, lost or corrupted data or source code, or other incidental or consequential damages arising from the use or the inability to use the Software (even if Licensor or an authorized dealer or distributor has been advised of the possibility of these damages), or for any claim by any other party.
 
@@ -56,8 +71,10 @@ The Software is subject to United States Export laws and regulations. Licensor a
 ## 6.0 Termination of Agreement.
 
 The Agreement shall immediately and automatically terminate without notice or any other act upon:
-a) the attempted illegal copying, distribution, transfer, assignment, lease or sale of the Software, or rights thereto, without the prior written consent of Licensor; or
-b) notice in writing given by Licensor upon the violation by that party of any provision of the Agreement.
+
+- a) the attempted illegal copying, distribution, transfer, assignment, lease or sale of the Software, or rights thereto, without the prior written consent of Licensor; or
+- b) notice in writing given by Licensor upon the violation by that party of any provision of the Agreement.
+
 Upon termination of the Agreement, Licensee will forthwith cease use of the Software and destroy all originals and copies of the Software or any portion thereof, stored in any form, including electronic form on any of its computer equipment. Upon Licensor's request, Licensee will provide a written certification that all the copies of the Software, in whole or in part in any form have been destroyed. Failure to do so may result in additional fees and charges being levied against Licensee. Any and all use of the Software by Licensee following termination of the Agreement is prohibited and may result in additional fees and charges being levied against Licensee.
 
 ## 7.0 Confidentiality.
@@ -77,9 +94,13 @@ Inline Diff for Eclipse operates locally within Licensee's Eclipse installation.
 Licensor reserves the right to make changes to the Agreement at any time through software releases and updates or through licensor's website where the Software is made available. If Licensor makes any changes, we will notify you by revising the version information at the bottom of this Agreement as and when required. We encourage you to review this Agreement whenever you can, in a timely fashion to stay informed about the changes. This Agreement will be available in the public domain, on Licensor website, www.genuitec.com.
 
 ## 11.0 General Provisions.
-11.1 Entire Agreement. The Agreement constitutes the entire agreement between the parties and supersedes all prior agreements and understandings, oral and written, expressed or implied, by and between any of the parties with respect to the subject matter of the Agreement.
+### 11.1 Entire Agreement.
 
-11.2 Amendment and Waiver. No amendment, modification or waiver of any provision of the Agreement shall be binding unless in writing and either signed or accepted electronically by a duly authorized representative of both parties. Failure to enforce any legal right or remedy which is contained in this Agreement will not be taken to be a formal waiver of Licensor's rights. If any one or more of the provisions contained in the Agreement should be invalid, illegal or unenforceable in any respect in any jurisdiction, the validity, legality and enforceability of such provision or provisions shall not in any way be affected or impaired as a result of such event in any other jurisdiction and the validity, legality and enforceability of the remaining provisions contained in the Agreement shall not in any way be affected or impaired as a result of such event, unless in either case as a result of such determination the Agreement would fail in its essential purpose.
+The Agreement constitutes the entire agreement between the parties and supersedes all prior agreements and understandings, oral and written, expressed or implied, by and between any of the parties with respect to the subject matter of the Agreement.
+
+### 11.2 Amendment and Waiver.
+
+No amendment, modification or waiver of any provision of the Agreement shall be binding unless in writing and either signed or accepted electronically by a duly authorized representative of both parties. Failure to enforce any legal right or remedy which is contained in this Agreement will not be taken to be a formal waiver of Licensor's rights. If any one or more of the provisions contained in the Agreement should be invalid, illegal or unenforceable in any respect in any jurisdiction, the validity, legality and enforceability of such provision or provisions shall not in any way be affected or impaired as a result of such event in any other jurisdiction and the validity, legality and enforceability of the remaining provisions contained in the Agreement shall not in any way be affected or impaired as a result of such event, unless in either case as a result of such determination the Agreement would fail in its essential purpose.
 
 ## 12.0 Governing Law.
 
@@ -90,6 +111,5 @@ The Agreement shall be governed by and construed in accordance with the laws of 
 The Software is trademarked and Copyright © 2025 - 2026 Genuitec, LLC. 2221 Justin Rd #119-340, Flower Mound, Texas, 75056 USA. Any rights not expressly granted herein are reserved to the Licensor.
 
 By acknowledging your acceptance of this license, you agree that you have reviewed this Agreement and the Genuitec website Terms of Use and that you will comply with all of the terms and conditions.
-
 
 Inline Diff for Eclipse EULA, 20261106.0
