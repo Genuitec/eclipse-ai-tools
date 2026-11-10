@@ -20,8 +20,6 @@ The inline view keeps syntax coloring and matches your editor's theme and font.
 
 The [focus tools](./live-review.md#focusing-on-what-matters) from Live Review work here too: hide changes, filter whitespace-only changes with **¶**, and dim changes not in focus.
 
-{/* TODO: Verify hide / ¶ / dim in the Compare Editor's inline view. */}
-
 The floating navigator's **⋮** button lets you show or hide changes and open
 Inline Diff settings. In the inline view, right-click the text and choose
 **Show Inline Diff Markers (+/-/~)** to mark changed lines in the margin.
