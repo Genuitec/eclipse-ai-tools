@@ -120,6 +120,8 @@ Inline Diff settings.
 
 ![The Inline Diff preference page linking to the Live Review, Time Machine, and Compare settings, the online documentation, and help.](/img/inline-diff-prefs-hub.png)
 
+{/* TODO: Replace with a screenshot from the new build (fixes "a files history" to "a file's history"). */}
+
 ![Live Review preferences showing the default baseline, word highlighting, focus dimming, whitespace-only filtering, change markers, navigation, and automatic refresh settings.](/img/live-review-prefs.png)
 
 Use this page to choose the default baseline and adjust:

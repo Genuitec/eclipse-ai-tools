@@ -43,8 +43,6 @@ total (MB)** to limit how much agent content is retained.
 
 ![Time Machine preferences showing agent-history storage limits and a link to Eclipse Local History preferences.](/img/time-machine-prefs.png)
 
-{/* TODO: Retake without ChangeReview installed: current image shows the old page names, the 'Change Review' and 'Agent Review' pages, and 'Change Reviews' in the page text. */}
-
 Your own saved versions are kept by Eclipse's Local History. If they disappear
 from the timeline sooner than expected, adjust **General > Workspace > Local History**.
 The Time Machine preference page includes a link to those settings.

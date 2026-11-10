@@ -29,6 +29,8 @@ All Inline Diff settings are linked from **Window > Preferences > Inline Diff**
 
 ![The Inline Diff preference page linking to the Live Review, Time Machine, and Compare settings, the online documentation, and help.](/img/inline-diff-prefs-hub.png)
 
+{/* TODO: Replace with a screenshot from the new build (fixes "a files history" to "a file's history"). */}
+
 ## Updating
 
 Open **Help > Check for Updates**, select an available Inline Diff update,
