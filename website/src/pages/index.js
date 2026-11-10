@@ -10,8 +10,8 @@ const PRODUCTS = [
     badge: 'Free',
     icon: 'img/changes_256-rounded.png',
     blurb:
-      'A true inline diff for Eclipse, at last: in the Compare editor and in ' +
-      'every text editor. Read changes top to bottom, not side to side.',
+      'The inline view that VS Code and IntelliJ users take for granted, now ' +
+      'in Eclipse: in the Compare editor and in every text editor.',
     docs: '/inline-diff/',
     install: '/inline-diff/install/installation',
   },
@@ -20,8 +20,7 @@ const PRODUCTS = [
     badge: 'Early Access',
     icon: 'img/changereview.svg',
     blurb:
-      "Review GitHub Copilot's agent changes before you keep them. " +
-      'Builds on Inline Diff.',
+      'Review agent changes before they get to Git. Builds on Inline Diff.',
     docs: '/changereview/',
     install: '/changereview/installation',
   },
