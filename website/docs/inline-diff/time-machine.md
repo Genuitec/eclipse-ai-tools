@@ -22,8 +22,6 @@ Added lines appear in green, and deleted lines appear as red gaps, just as in
 Live Review and Inline Compare. The viewer's navigator has the same **⋮** menu.
 The [focus tools](./live-review.md#focusing-on-what-matters) from Live Review work here too.
 
-{/* TODO: Verify hide / ¶ / dim in the Time Machine viewer. */}
-
 {/* TODO: Verify the comparison direction (selected version against what?) and describe it in one sentence. */}
 
 ## Configuration
