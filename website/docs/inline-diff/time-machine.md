@@ -6,9 +6,9 @@ versions with changes highlighted inline.
 It uses its own copy of the content. Exploring history leaves your editor buffer
 and the file on disk untouched, even while an AI agent is writing to the file.
 
-![Time Machine showing a selected historical version, inline changes, and the history timeline.](/img/time-machine.png)
+![Time Machine showing a selected historical version, inline changes, the navigator, and the history timeline with Developer and Commit filters.](/img/time-machine.png)
 
-{/* TODO: Retake without ChangeReview installed: current image shows the Agent filter chip. Also show the current navigator. */}
+{/* TODO: Retake once the navigator shows "1 hidden" in full (currently cut off as "1 hidd..."). */}
 
 ## How to use it
 
