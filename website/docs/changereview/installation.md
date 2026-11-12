@@ -36,8 +36,14 @@ Open **Help > About Eclipse IDE > Installation Details**. Select ChangeReview
 on the **Installed Software** tab, click **Uninstall**, and follow the prompts.
 Restart Eclipse when prompted.
 
-Inline Diff stays installed; uninstall it separately if you no longer want it.
+What happens to Inline Diff depends on how it was installed:
 
-{/* TODO: Verify whether p2 also removes Inline Diff when it was only installed as a ChangeReview requirement. */}
+- **Installed with ChangeReview** (you installed only ChangeReview): uninstalling
+  ChangeReview removes Inline Diff too.
+- **Installed on its own first:** Inline Diff stays installed when you uninstall
+  ChangeReview.
+
+If Inline Diff was removed and you still want it, reinstall it from Eclipse
+Marketplace.
 
 Need assistance? See [Getting Help](/inline-diff/getting-help).
