@@ -4,13 +4,13 @@ Install Inline Diff from Eclipse Marketplace, then restart Eclipse.
 
 ## Prerequisites
 
-- An Eclipse IDE or Eclipse-based product running on Java 17 or later.
+- Eclipse 2025-03 (4.35) or later, or an Eclipse-based product built on it, running on Java 17 or later.
 - Windows 11 or 10, macOS, or Linux.
 
 No AI coding assistant is required. Inline Diff reviews changes made by you,
 your teammates, or an AI coding agent.
 
-{/* TODO: Confirm the minimum Eclipse version and supported MyEclipse versions before publication. */}
+{/* TODO: Confirm supported MyEclipse versions before publication. Tested back to Eclipse 2025-03 (4.35.0), 2026-11-12. */}
 
 ## Install
 
